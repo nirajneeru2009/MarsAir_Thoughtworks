@@ -1,0 +1,76 @@
+{
+"FlightSearchDetails":[
+ {
+  "testCaseId": "TC1",
+  "departureMonth": "July",
+  "returnMonth": "December",
+  "expectedResult": "Unfortunately, this schedule is not possible. Please try again."
+ },
+ {
+  "testCaseId": "TC2",
+  "departureMonth": "July",
+  "returnMonth": "July (next year)",
+  "expectedResult": "Seats available!"
+ },
+ {
+  "testCaseId": "TC3",
+  "departureMonth": "July",
+  "returnMonth": "December (next year)",
+  "expectedResult": "Seats available!"
+ },
+ {
+  "testCaseId": "TC4",
+  "departureMonth": "December",
+  "returnMonth": "July",
+  "expectedResult": "Unfortunately, this schedule is not possible. Please try again."
+ },
+ {
+  "testCaseId": "TC5",
+  "departureMonth": "December",
+  "returnMonth": "December",
+  "expectedResult": "Unfortunately, this schedule is not possible. Please try again."
+ },
+ {
+  "testCaseId": "TC6",
+  "departureMonth": "July",
+  "returnMonth": "July",
+  "expectedResult": "Unfortunately, this schedule is not possible. Please try again."
+ },
+ {
+  "testCaseId": "TC7",
+  "departureMonth": "December",
+  "returnMonth": "July (next year)",
+  "expectedResult": "Unfortunately, this schedule is not possible. Please try again."
+ },
+ {
+  "testCaseId": "TC8",
+  "departureMonth": "December",
+  "returnMonth": "December (next year)",
+  "expectedResult": "Seats available!"
+ },
+ {
+  "testCaseId": "TC9",
+  "departureMonth": "December",
+  "returnMonth": "July(two years from now)",
+  "expectedResult": "Seats available!"
+ },
+ {
+  "testCaseId": "TC10",
+  "departureMonth": "December",
+  "returnMonth": "December (two years from now)",
+  "expectedResult": "Seats available!"
+ },
+ {
+  "testCaseId": "TC11",
+  "departureMonth": "July",
+  "returnMonth": "December (two years from now)",
+  "expectedResult": "Seats available!"
+ },
+ {
+  "testCaseId": "TC12",
+  "departureMonth": "July (next year)",
+  "returnMonth": "December (next year)",
+  "expectedResult": "Unfortunately, this schedule is not possible. Please try again."
+ }
+]
+}
