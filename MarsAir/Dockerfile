@@ -5,7 +5,7 @@ FROM openjdk:11-jdk-slim
 RUN apt-get update && apt-get install -y git
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /MarsAir
 
 # Copy your project files into the container
 RUN git clone https://github.com/nirajneeru2009/MarsAir_Thoughtworks.git /MarsAir
