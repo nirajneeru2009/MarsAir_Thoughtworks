@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git
 WORKDIR /app
 
 # Copy your project files into the container
-RUN git clone https://github.com/nirajneeru2009/MarsAir_Thoughtworks.git /app
+RUN git clone https://github.com/nirajneeru2009/MarsAir_Thoughtworks.git /MarsAir
 
 # Install dependencies using Maven or Gradle (if applicable)
 RUN apt-get install -y maven && mvn clean install
